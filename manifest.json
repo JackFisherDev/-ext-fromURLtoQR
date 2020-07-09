@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "fromURLtoQRExt",
+  "version": "1.0.0",
+  "description": "Transform current tab URL into QR code in order to open the link on mobile devices.",
+  "author": "jackfisherdev",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "fromURLtoQR"
+  },
+  "permissions": ["activeTab", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/content.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  }
+}

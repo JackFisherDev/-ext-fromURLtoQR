@@ -1,0 +1,38 @@
+body {
+  box-sizing: border-box;
+  height: 209px;
+  padding: 15px;
+  width: 158px;
+}
+
+#btn {
+  background: #438a5e;
+  border: none;
+  border-radius: 4px;
+  color: #f7fbe1;
+  cursor: pointer;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  height: 36px;
+  margin: 0 auto 15px;
+  padding: 0 15px;
+  transition: background 0.2s ease-in;
+}
+
+#btn:hover,
+#btn:focus {
+  background: #0c9463;
+}
+
+#btn:active {
+  background: #438a5e;
+}
+
+#btn:disabled {
+  background: #cccccc;
+}
+
+#qr-placeholder {
+  opacity: 0.5;
+}
