@@ -1,8 +1,10 @@
 body {
   box-sizing: border-box;
-  height: 209px;
+  /* height: 209px; */
+  height: 509px;
   padding: 15px;
-  width: 158px;
+  /* width: 158px; */
+  width: 558px;
 }
 
 #btn {
